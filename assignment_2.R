@@ -78,7 +78,7 @@ second_avg_price <- summary_stats_top_neighborhoods %>%
   slice(2) %>%
   pull(avg_square_feet)
 
-
+#
 
 
 
