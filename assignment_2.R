@@ -26,3 +26,4 @@ summary_stats_top_neighborhoods <- airbnb_top_neighborhoods %>% group_by(neighbo
 highest_avg_square_ft <- as.numeric(summary_stats_top_neighborhoods[1, "avg_square_feet"])
 #f)
 second_avg_price <- as.numeric((summary_stats_top_neighborhoods %>% arrange(desc(avg_price)))[2, "avg_price"])
+
