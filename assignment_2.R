@@ -68,13 +68,11 @@ summary_stats_top_neighborhoods <- airbnb_top_neighborhoods %>%
 
 # Part 2.e Private question
 highest_avg_square_ft <- summary_stats_top_neighborhoods %>%
-  select(avg_square_feet) %>%
   slice(1) %>%
   pull(avg_square_feet)
 
 # Part 2.f Private question
 second_avg_price <- summary_stats_top_neighborhoods %>%
-  select(avg_square_feet) %>%
   slice(2) %>%
   pull(avg_square_feet)
 
